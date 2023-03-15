@@ -43,7 +43,7 @@
     content: '';
     height: 3px;
     width: 0;
-    background: aquamarine;
+    background: rgb(127, 255, 212);
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -147,21 +147,21 @@ body {
 .wrapper .facebook:hover,
 .wrapper .facebook:hover .tooltip,
 .wrapper .facebook:hover .tooltip::before {
-  background: #1877F2;
+  background: #1356afce;
   color: #ffffff;
 }
 
 .wrapper .twitter:hover,
 .wrapper .twitter:hover .tooltip,
 .wrapper .twitter:hover .tooltip::before {
-  background: #1DA1F2;
+  background: #29a7f5;
   color: #ffffff;
 }
 
 .wrapper .instagram:hover,
 .wrapper .instagram:hover .tooltip,
 .wrapper .instagram:hover .tooltip::before {
-  background: #E4405F;
+  background: #f17399;
   color: #ffffff;
 }
 
@@ -179,4 +179,8 @@ body {
   color: #ffffff;
 }
 
+.fab fa-youtube{
+  display: none;
+  visibility: hidden;
+}
 /***** End Section *****/
