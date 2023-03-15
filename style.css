@@ -1,62 +1,63 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-.banner{
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(Images/TacoBell.jpg);
-    
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.banner {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(Images/TacoBell.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.navbar{
-    width: 85%;
-    margin: auto;
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.logo{
-    width: 120px;
-    cursor: pointer;
-    opacity: 0.9;
+.logo {
+  width: 120px;
+  cursor: pointer;
+  background-color: white;
+
 }
 
-.navbar ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
 }
 
-.navbar ul li a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    
-    
-    text-transform: uppercase;
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+
+
+  text-transform: uppercase;
 }
 
-.navbar ul li::after{
-    content: '';
-    height: 5px;
-    width: 0;
-    background: rgb(113, 110, 157);
-    position: absolute;
-    left: 0;
-    bottom: -8px;
-    transition: 0.5s;
+.navbar ul li::after {
+  content: '';
+  height: 5px;
+  width: 0;
+  background: rgb(113, 110, 157);
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
 }
 
-.navbar ul li:hover:after{
-    width: 100%;
+.navbar ul li:hover:after {
+  width: 100%;
 }
 
 /***** cards *****/
@@ -74,7 +75,7 @@
   width: 300px;
   height: 300px;
   border-radius: 40px;
-box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
   cursor: pointer;
   transition: 0.4s;
 }
@@ -104,8 +105,8 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
 .card:hover {
   transform: scale(0.9, 0.9);
-  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
-    -5px -5px 30px 15px rgba(0,0,0,0.22);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
 }
 
 .title-white {
@@ -250,8 +251,9 @@ body {
   color: #ffffff;
 }
 
-.fab fa-youtube{
+.fab fa-youtube {
   display: none;
   visibility: hidden;
 }
+
 /***** End Section *****/
