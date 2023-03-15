@@ -6,10 +6,12 @@
 
 .banner{
     width: 100%;
-    height: auto;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75),url(Images/TacoBell.jpg));
-    background-size: cover;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(Images/TacoBell.jpg);
+    
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navbar{
@@ -24,6 +26,7 @@
 .logo{
     width: 120px;
     cursor: pointer;
+    opacity: 0.9;
 }
 
 .navbar ul li{
@@ -35,18 +38,20 @@
 
 .navbar ul li a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
+    
+    
     text-transform: uppercase;
 }
 
 .navbar ul li::after{
     content: '';
-    height: 3px;
+    height: 5px;
     width: 0;
-    background: rgb(127, 255, 212);
+    background: rgb(113, 110, 157);
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: -8px;
     transition: 0.5s;
 }
 
